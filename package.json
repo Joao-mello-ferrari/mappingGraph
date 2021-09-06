@@ -1,0 +1,28 @@
+{
+  "name": "graph-software",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@types/react-modal": "^3.12.0",
+    "axios": "^0.21.1",
+    "chart.js": "^3.2.0",
+    "fs": "^0.0.1-security",
+    "next": "10.1.3",
+    "react": "17.0.2",
+    "react-chartjs-2": "^3.0.2",
+    "react-dom": "17.0.2",
+    "react-loader-spinner": "^4.0.0",
+    "react-modal": "^3.13.1",
+    "sass": "^1.32.11"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.41",
+    "@types/react": "^17.0.3",
+    "typescript": "^4.2.4"
+  }
+}
