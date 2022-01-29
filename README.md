@@ -1,34 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Proposal
+The main project is the development of a LiDAR sensor, along with a mapping graph.
+The graph itself was developed with Next.js, using the react-chartjs-2 library.
+For more information about the system, please take a look at our article: 
+https://www.yumpu.com/pt/document/read/66298819/tcc-final
 
-## Getting Started
+# Why to use Next.js ?
+Next builds a fully optimized node.js server that helps the client side to be optimized. Thus, we are able to create a back-end application that runs alongside our front-end, with simple steps.
 
-First, run the development server:
+The back-end server is responsible for connect the front-end side and the LiDAR sensor, so each part can get info (is this case mapped data) from another.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Beyond that, next.js uses a recent version of webpack and many other features, so that everything, including the front-end side, is efficient and fast.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# What if i don't know how to use next.js ?
+Well, if you would like a preview video od what was developed, plese check
+https://youtu.be/0nOX7tfUSJU to see our LiDAR sensor and the graph itself.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+To start out in Next.js it's pretty dawm simple... I will link some webpages below and the next.js docs...
+<ul>
+  <li>
+    https://nextjs.org/
+  </li>
+  <li>
+    https://www.freecodecamp.org/news/nextjs-tutorial/
+  </li>
+  <li>
+    https://www.digitalocean.com/community/tech_talks/getting-started-with-next-js
+  </li>
+</ul>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+# About our team
+I could not forget to highlight the team behind this beautiful project.
+The people i had the honor of building this system are Rafael Machado and Felipe Machado.
+Please check their profiles out, you will not regret it.
+<ul>
+  <li>
+    <strong>Rafael's Github:<strong> https://github.com/RafaelHuszcza
+  </li>
+  <li>
+    <strong>Felipe's Intagram:<strong> https://www.instagram.com/hipnoterapeuta_felipe/
+  </li>
+</ul>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
